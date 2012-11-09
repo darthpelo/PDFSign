@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3F6774153C59DF00F82276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F6773153C59DF00F82276 /* UIKit.framework */; };
+		BE3F6776153C59DF00F82276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F6775153C59DF00F82276 /* Foundation.framework */; };
+		BE3F6778153C59DF00F82276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F6777153C59DF00F82276 /* CoreGraphics.framework */; };
+		BE3F677E153C59DF00F82276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE3F677C153C59DF00F82276 /* InfoPlist.strings */; };
+		BE3F6780153C59DF00F82276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F677F153C59DF00F82276 /* main.m */; };
+		BE3F6784153C59DF00F82276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F6783153C59DF00F82276 /* AppDelegate.m */; };
+		BE3F6787153C59DF00F82276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F6786153C59DF00F82276 /* ViewController.m */; };
+		BE3F678A153C59DF00F82276 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3F6788153C59DF00F82276 /* ViewController.xib */; };
+		BE3F6798153C5FDF00F82276 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F6797153C5FDF00F82276 /* QuartzCore.framework */; };
+		BE53C0FE164CF208003E0D0F /* SmoothLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9CAB63153D6A86009DE258 /* SmoothLineView.m */; };
+		BE9CAB7D153DC30C009DE258 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9CAB7C153DC30C009DE258 /* MessageUI.framework */; };
+		BEF246B2164C6786007C286C /* C_21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEF246B1164C6786007C286C /* C_21.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE3F676F153C59DF00F82276 /* PDFSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F6773153C59DF00F82276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE3F6775153C59DF00F82276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE3F6777153C59DF00F82276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE3F677B153C59DF00F82276 /* PDFSign-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFSign-Info.plist"; sourceTree = "<group>"; };
+		BE3F677D153C59DF00F82276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE3F677F153C59DF00F82276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE3F6781153C59DF00F82276 /* PDFSign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFSign-Prefix.pch"; sourceTree = "<group>"; };
+		BE3F6782153C59DF00F82276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE3F6783153C59DF00F82276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE3F6785153C59DF00F82276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE3F6786153C59DF00F82276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE3F6789153C59DF00F82276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BE3F6797153C5FDF00F82276 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE9CAB62153D6A86009DE258 /* SmoothLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothLineView.h; sourceTree = "<group>"; };
+		BE9CAB63153D6A86009DE258 /* SmoothLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothLineView.m; sourceTree = "<group>"; };
+		BE9CAB66153D7D23009DE258 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BE9CAB7C153DC30C009DE258 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BEF246B1164C6786007C286C /* C_21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = C_21.pdf; sourceTree = "<group>"; };
+		BEF246BB164C6B90007C286C /* SmoothLineView_new.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothLineView_new.h; sourceTree = "<group>"; };
+		BEF246BC164C6B90007C286C /* SmoothLineView_new.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothLineView_new.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3F676C153C59DF00F82276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9CAB7D153DC30C009DE258 /* MessageUI.framework in Frameworks */,
+				BE3F6798153C5FDF00F82276 /* QuartzCore.framework in Frameworks */,
+				BE3F6774153C59DF00F82276 /* UIKit.framework in Frameworks */,
+				BE3F6776153C59DF00F82276 /* Foundation.framework in Frameworks */,
+				BE3F6778153C59DF00F82276 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3F6764153C59DF00F82276 = {
+			isa = PBXGroup;
+			children = (
+				BE3F6779153C59DF00F82276 /* PDFSign */,
+				BE3F6772153C59DF00F82276 /* Frameworks */,
+				BE3F6770153C59DF00F82276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3F6770153C59DF00F82276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F676F153C59DF00F82276 /* PDFSign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3F6772153C59DF00F82276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9CAB7C153DC30C009DE258 /* MessageUI.framework */,
+				BE9CAB66153D7D23009DE258 /* CoreFoundation.framework */,
+				BE3F6797153C5FDF00F82276 /* QuartzCore.framework */,
+				BE3F6773153C59DF00F82276 /* UIKit.framework */,
+				BE3F6775153C59DF00F82276 /* Foundation.framework */,
+				BE3F6777153C59DF00F82276 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3F6779153C59DF00F82276 /* PDFSign */ = {
+			isa = PBXGroup;
+			children = (
+				BE9CAB62153D6A86009DE258 /* SmoothLineView.h */,
+				BE9CAB63153D6A86009DE258 /* SmoothLineView.m */,
+				BE3F6782153C59DF00F82276 /* AppDelegate.h */,
+				BE3F6783153C59DF00F82276 /* AppDelegate.m */,
+				BE3F6785153C59DF00F82276 /* ViewController.h */,
+				BE3F6786153C59DF00F82276 /* ViewController.m */,
+				BE3F6788153C59DF00F82276 /* ViewController.xib */,
+				BE3F677A153C59DF00F82276 /* Supporting Files */,
+				BEF246BB164C6B90007C286C /* SmoothLineView_new.h */,
+				BEF246BC164C6B90007C286C /* SmoothLineView_new.m */,
+			);
+			path = PDFSign;
+			sourceTree = "<group>";
+		};
+		BE3F677A153C59DF00F82276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF246B1164C6786007C286C /* C_21.pdf */,
+				BE3F677B153C59DF00F82276 /* PDFSign-Info.plist */,
+				BE3F677C153C59DF00F82276 /* InfoPlist.strings */,
+				BE3F677F153C59DF00F82276 /* main.m */,
+				BE3F6781153C59DF00F82276 /* PDFSign-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3F676E153C59DF00F82276 /* PDFSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3F678D153C59DF00F82276 /* Build configuration list for PBXNativeTarget "PDFSign" */;
+			buildPhases = (
+				BE3F676B153C59DF00F82276 /* Sources */,
+				BE3F676C153C59DF00F82276 /* Frameworks */,
+				BE3F676D153C59DF00F82276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFSign;
+			productName = PDFSign;
+			productReference = BE3F676F153C59DF00F82276 /* PDFSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3F6766153C59DF00F82276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE3F6769153C59DF00F82276 /* Build configuration list for PBXProject "PDFSign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE3F6764153C59DF00F82276;
+			productRefGroup = BE3F6770153C59DF00F82276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3F676E153C59DF00F82276 /* PDFSign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3F676D153C59DF00F82276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F677E153C59DF00F82276 /* InfoPlist.strings in Resources */,
+				BE3F678A153C59DF00F82276 /* ViewController.xib in Resources */,
+				BEF246B2164C6786007C286C /* C_21.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3F676B153C59DF00F82276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE53C0FE164CF208003E0D0F /* SmoothLineView.m in Sources */,
+				BE3F6780153C59DF00F82276 /* main.m in Sources */,
+				BE3F6784153C59DF00F82276 /* AppDelegate.m in Sources */,
+				BE3F6787153C59DF00F82276 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE3F677C153C59DF00F82276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3F677D153C59DF00F82276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE3F6788153C59DF00F82276 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3F6789153C59DF00F82276 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3F678B153C59DF00F82276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BE3F678C153C59DF00F82276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3F678E153C59DF00F82276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFSign/PDFSign-Prefix.pch";
+				INFOPLIST_FILE = "PDFSign/PDFSign-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE3F678F153C59DF00F82276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFSign/PDFSign-Prefix.pch";
+				INFOPLIST_FILE = "PDFSign/PDFSign-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3F6769153C59DF00F82276 /* Build configuration list for PBXProject "PDFSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3F678B153C59DF00F82276 /* Debug */,
+				BE3F678C153C59DF00F82276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3F678D153C59DF00F82276 /* Build configuration list for PBXNativeTarget "PDFSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3F678E153C59DF00F82276 /* Debug */,
+				BE3F678F153C59DF00F82276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3F6766153C59DF00F82276 /* Project object */;
+}
